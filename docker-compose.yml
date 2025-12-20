@@ -1,0 +1,19 @@
+# version: "3.8"
+
+services:
+  jekyll:
+    build: .
+    image: beautiful-jekyll-theme:local
+    volumes:
+      - ./:/srv/jekyll:rw,delegated
+      # persist installed gems cache to speed subsequent builds
+      - bundle_cache:/gems
+    ports:
+      - "4000:4000"
+    environment:
+      - BUNDLE_PATH=/gems
+    command: ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--watch", "--force_polling"]
+    tty: true
+
+volumes:
+  bundle_cache:
