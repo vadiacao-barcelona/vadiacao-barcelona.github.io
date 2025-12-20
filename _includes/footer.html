@@ -11,11 +11,8 @@
         </div>
       {% endif %}
       <p class="copyright text-muted">
-      {% if site.author %}
-        {{ site.author }}
-        &nbsp;&bull;&nbsp;
-      {% endif %}
-      {{ site.time | date: '%Y' }}
+      &copy;
+      {{ site.time | date: '%Y' }} {{ site.title }}
 
       {% if site.url-pretty %}
         &nbsp;&bull;&nbsp;
@@ -35,12 +32,14 @@
         &nbsp;&bull;&nbsp;
         <a title="Edit this page on GitHub" href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="text_muted">Edit page</a>
        {% endif%}
-
+       
+      <p class="text-muted">
+        {% if site.author %}
+        <small>
+          Made by {{ site.author }}
+        </small>
+        {% endif %}
       </p>
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
-        Powered by
-        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
-      </p>{% endunless %}
       </div>
     </div>
   </div>
