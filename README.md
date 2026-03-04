@@ -1,22 +1,36 @@
-# Asociación Cultural de Capoeira Angola Vadiação _website_
+# Asociación Cultural de Capoeira Angola Vadiação
 
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
-This website is built from a fork of the [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll?tab=readme-ov-file#beautiful-jekyll) project, a ready-to-use template to help you create a beautiful website quickly.
+Source code for the website of the **Asociación Cultural de Capoeira Angola Vadiação** de Mestre Gil Maciel.
 
-## Development
+> [!NOTE] 
+> This website is a fork of [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll?tab=readme-ov-file#beautiful-jekyll), a ready-to-use template to help you create a beautiful website quickly.
 
-To streamline development, install [Docker](https://www.docker.com/products/docker-desktop/) and follow the [Quickstart](#quickstart)—no additional local setup required.
+## Development Setup
+### Requirements
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-### Quickstart
-1. Launch Docker in the background
-2. Execute [serve_locally.sh](./serve_locally.sh) file
-3. Open [http://localhost:4000/](http://localhost:4000/)
-
-
-## Acknowledgments
-The following people have contributed to this project:
-* [tennets](https://github.com/tennets)
+### Getting started
+1. Start services:
+    ```bash
+    docker-compose up
+    ```
+1. Install TrailBase components (_run once_, as these components persist in the **./traildepot** directory):
+    ```bash
+    docker-compose exec trailbase /app/trail components add trailbase/auth_ui
+    ```
+1. Setup your TrailBase Admin login credentials (_run once_):
+    ```bash
+    docker-compose exec trailbase /app/trail user change-password admin@localhost <YOURPASSWORD> && docker-compose exec trailbase /app/trail user change-email admin@localhost <YOUREMAIL>
+    ```
+1. Acess services:
+    * Website: [http://localhost:4000](http://localhost:4000)
+    * (TrailBase) Admin panel: [http://localhost:8080/_/auth/login](http://localhost:8080/_/auth/login)
+1. Stop services:
+    ```bash
+    docker-compose down
+    ```
 
 ---
-&copy; 2025 Asociación Cultural de Capoeira Angola Vadiação 
+&copy; 2026 Asociación Cultural de Capoeira Angola Vadiação 
