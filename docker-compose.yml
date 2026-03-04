@@ -1,6 +1,7 @@
 # version: "3.8"
 
 services:
+  # Jekyll setup (frontend)
   jekyll:
     build: .
     image: beautiful-jekyll-theme:local
@@ -13,6 +14,15 @@ services:
     environment:
       - BUNDLE_PATH=/gems
     command: ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--watch", "--force_polling"]
+    tty: true
+  
+  # Trailbase setup (backend)
+  trailbase:
+    image: trailbase/trailbase:latest
+    volumes:
+      - ./traildepot:/app/traildepot
+    ports: 
+      - "8080:4000" # avoid conflict with port 4000
     tty: true
 
 volumes:
