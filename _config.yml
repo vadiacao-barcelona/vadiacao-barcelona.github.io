@@ -268,8 +268,10 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - screenshot.png
-  - docs/
+  - Dockerfile
+  - docker-compose.yml
+  - staticman.yml 
+  - traildepot
 
 plugins:
   - jekyll-paginate
