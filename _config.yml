@@ -48,7 +48,7 @@ title-img: "assets/media/logo/logo-vadiacao.JPG"
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "proyectoculturalbarcelona.br@gmail.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook:
 #  github:  
 #  twitter: 
@@ -56,7 +56,7 @@ social-network-links:
 #  youtube:
   whatsapp: 0034658663594
 #  reddit: 
-#  instagram: 
+  instagram: vadiacao_bcn
 #  telephone: +14159998888
 #  calendly: yourname
 
@@ -127,7 +127,13 @@ footer-hover-col: "#7EC2D8"
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
+footer-img-ibram: "/assets/img/footer/ibram/ibram_color.png"
+footer-img-minc: "/assets/img/footer/minc/minc_color.png"
+footer-img-pc: "/assets/img/footer/ponto-de-cultura.png"
+footer-img-pm: "/assets/img/footer/ponto-de-memoria.png"
+footer-img-un: "/assets/img/footer/universo-negro.jpeg"
+footer-img-h: 90
+
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.

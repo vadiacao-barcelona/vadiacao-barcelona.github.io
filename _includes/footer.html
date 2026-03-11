@@ -2,6 +2,27 @@
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="footer-custom-content" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+          <img src="{{ site.footer-img-un | relative_url }}" alt="Universo Negro" height="180" style="margin-bottom: 5px;">
+          <p>
+            <b>Proyecto premiado en la categoria "Pontos de Memoria no Exterior" edicion 2012</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="footer-custom-content" style="display: flex; gap: 20px; justify-content: center; align-items: center; flex-wrap: wrap;">
+          <img src="{{ site.footer-img-pc | relative_url }}" alt="Logo Ponto de Cultura" height="{{ site.footer-img-h }}">
+          <img src="{{ site.footer-img-pm | relative_url }}" alt="Logo Ponto de Memoria" height="{{ site.footer-img-h }}">
+          <img src="{{ site.footer-img-ibram | relative_url }}" alt="Logo 
+Instituto Brasileiro de Museus" height="{{ site.footer-img-h }}">
+          <img src="{{ site.footer-img-minc | relative_url }}" alt="Logo Ministério da Cultura do Brasil" height="{{ site.footer-img-h }}">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       {% include social-networks-links.html %}
       {% if page.footer-extra %}
         <div class="footer-custom-content">
@@ -32,14 +53,6 @@
         &nbsp;&bull;&nbsp;
         <a title="Edit this page on GitHub" href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="text_muted">Edit page</a>
        {% endif%}
-       
-      <p class="text-muted">
-        {% if site.author %}
-        <small>
-          Made by {{ site.author }}
-        </small>
-        {% endif %}
-      </p>
       </div>
     </div>
   </div>
