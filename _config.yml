@@ -263,6 +263,8 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - traildepot
+  - TODO.md
+  - FEEDBACK.md
 
 plugins:
   - jekyll-paginate
