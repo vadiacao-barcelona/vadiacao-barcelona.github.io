@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Consejo consultivos de Mestres
-subtitle: Los mestres responsable, junto a Mestre Gil, de nuestra escuela
+title: Consejos consultivo y de maestros
 ---
 
-> [...] Os conselhos consultivo e de mestres funcionarão como instrumento de orientação para
-manter a filosofia e os projetos propostos pela Asociación, instrumento de orientação nas
-atividades projetadas e a realizar pela associação sobre a cultura de matriz africana no Brasil e
-no que diz respeito a capoeira. [...]
+> [...] Los consejos consultivo y de maestros funcionarán como instrumento de orientación para
+mantener la filosofía y los proyectos propuestos por la Asociación, instrumento de orientación en las
+actividades proyectadas y a realizar por la asociación sobre la cultura de matriz africana en Brasil y
+en lo que respecta a la capoeira. [...]
 
-## Consultivo
+## Consejos
+
+### Consultivos 
 <div style="text-align:left">
     <ul>
         <li>Dr. Kabengele Munanga</li>
@@ -18,8 +19,7 @@ no que diz respeito a capoeira. [...]
     </ul>
 </div>
 
-
-## Mestres de Capoeira
+### Mestres
 <div style="text-align:left">
     <ul>
         <li>Mestre Moa do Katendê</li>
