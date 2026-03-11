@@ -1,0 +1,4 @@
+- [ ] Add class timetable in 'clases.md'.
+- [ ] Add some image in 'galeria.md', however not much as we want people to refer to Instagram.
+- [ ] Add animated logo or some sort of transition.
+- [ ] Add list of project in 'apoyanos.md'. Each project is an image, a brief description and a dropdown to read more about the project.
