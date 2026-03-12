@@ -23,6 +23,11 @@ navbar-links:
   Galería: "galeria"
   Contacto: "contacto"
 
+###################
+# --- Language ---#
+###################
+language: es
+
 ################
 # --- Logo --- #
 ################
@@ -242,7 +247,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
