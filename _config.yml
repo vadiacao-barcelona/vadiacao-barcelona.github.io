@@ -134,6 +134,8 @@ footer-img-pm: "/assets/img/footer/ponto-de-memoria.png"
 footer-img-un: "/assets/img/footer/universo-negro.jpeg"
 footer-img-h: 90
 
+media-img: "/assets/media/"
+
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
