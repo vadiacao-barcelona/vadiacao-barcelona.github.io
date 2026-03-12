@@ -4,15 +4,14 @@ title: Clases
 subtitle: Informaciones sobres las clases
 ---
 
-### Duración
-2 horas por clase
+Clases de 2 horas, de Lunes a Viernes. Sabado clase/rueda por los alumnos de la escuela.
 
 ### Precios
-* Clase suelta o de prueba: 15€ (7,50€/hora)
-* Pack de 10 clases: 100€ con 2 meses de validez (5€/hora)
+* Clase suelta o de prueba: 15€
+* Pack de 10 clases: 100€ con 2 meses de validez
 
 ### Que traer
-* Pantalones largos
+* Pantalones largos (comodos)
 * Camiseta blanca
 * Bambas
 
