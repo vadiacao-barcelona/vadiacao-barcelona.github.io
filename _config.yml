@@ -118,7 +118,7 @@ hover-col: "#0B2034" #0085A1
 navbar-col: "#7EC2D8" #EAEAEA
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-footer-col: "#7EC2D8"
+footer-col: "#FFFFFF"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#7EC2D8"
