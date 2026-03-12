@@ -408,7 +408,7 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 20px var(--footer-col) solid; /* in the future we may want to */
+  border-top: 20px solid var(--footer-col); /* in the future we may want to */
   margin-top: 3.125rem;                     /* use an image instead */
   font-size: 0.875rem;
   /*

@@ -118,7 +118,7 @@ hover-col: "#0B2034" #0085A1
 navbar-col: "#7EC2D8" #EAEAEA
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-footer-col: "#FFFFFF"
+footer-col: "#7EC2D8"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#7EC2D8"
@@ -127,12 +127,8 @@ footer-hover-col: "#7EC2D8"
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-footer-img-ibram: "/assets/img/footer/ibram/ibram_color.png"
-footer-img-minc: "/assets/img/footer/minc/minc_color.png"
-footer-img-pc: "/assets/img/footer/ponto-de-cultura.png"
-footer-img-pm: "/assets/img/footer/ponto-de-memoria.png"
-footer-img-un: "/assets/img/footer/universo-negro.jpeg"
-footer-img-h: 90
+footer-img: "/assets/img/footer/"
+footer-img-h: 75
 
 media-img: "/assets/media/"
 
