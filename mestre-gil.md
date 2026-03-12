@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Mestre Gil
+title: Mestre Gil Maciel
 ---
 
-El maestro Gil Maciel comenzó a practicar capoeira en agosto de 1984, en Porto Alegre (Rio Grande do Sul), con el profesor Anselmo da Silva Accurso (maestro Ratinho), en el «Centro de Educación Social y Comunitaria Primeiro de Maio (CEPRIMA)». 
+El maestro Gil Maciel comenzó a practicar capoeira en agosto de 1983, en Porto Alegre (Rio Grande do Sul), con el profesor Anselmo da Silva Accurso (maestro Ratinho), en el «Centro de Educación Social y Comunitaria Primeiro de Maio (CEPRIMA)». 
 
 Desde enero de 1986 hasta mayo de 1991 recibió clases de capoeira angola con João Anselmo Louruz JR (Maestro Mico), que actualmente vive en Amberes (Bélgica). 
 En enero de 2000 fue nombrado Contramestre y en 2004 abrió su academia en el barrio de Pinheiros, en la capital de São Paulo, donde imparte cursos y talleres.
