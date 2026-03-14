@@ -4,7 +4,7 @@ title: Clases
 subtitle: Informaciones sobres las clases
 ---
 
-Clases de 2 horas, de Lunes a Viernes. Sabado clase/rueda por los alumnos de la escuela.
+Clases de 2 horas, de lunes a viernes. Sábado clase/rueda para los alumnos de la escuela.
 
 ### Precios
 * Clase suelta o de prueba: 15€
