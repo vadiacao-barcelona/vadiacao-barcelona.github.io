@@ -3,7 +3,7 @@ layout: page
 title: Valores
 ---
 
-![Valores]({{ site.media-img | relative_url }}/valores.jpeg){: .mx-auto.d-block :}
+![Valores]({{ site.img | relative_url }}/valores.jpeg){: .mx-auto.d-block :}
 
 ## La Asociación
 La Asociación Cultural Capoeira Angola Vadiação, desde su fundación en el año 2007 en la ciudad de Barcelona, Catalunya, desarrolla Proyectos Socioculturales construidos de forma colectiva y sin ánimo de lucro, ofreciendo clases continuas de capoeira de forma gratuita con el Proyecto Capoeira Calidad de Vida y Socialización en el barrio de Sant Pere, Santa Catarina y la Ribera. 
