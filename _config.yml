@@ -132,10 +132,8 @@ footer-hover-col: "#7EC2D8"
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-footer-img: "/assets/img/footer/"
-footer-img-h: 75
-
-media-img: "/assets/media/"
+img: "/assets/img/"
+media: "/assets/media/"
 
 #page-img: "/assets/img/bgimage.png"
 

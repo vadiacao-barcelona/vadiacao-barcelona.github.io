@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="footer-custom-content" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-          <img src="{{ site.footer-img | relative_url }}/universo-negro.jpeg" alt="Universo Negro" height="220">
+          <img src="{{ site.img | relative_url }}/footer/universo-negro.jpeg" alt="Universo Negro" height="220">
           <p>
             <b>Proyecto premiado en la categoría "Pontos de Memoria no Exterior" edición 2012</b>
           </p>
@@ -11,14 +11,14 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-10 offset-xl-1 col-lg-12">
-        <div class="footer-custom-content" style="display: flex; gap: 20px; justify-content: center; align-items: center; flex-wrap: wrap;">
-          <img src="{{ site.footer-img | relative_url }}/ponto-de-cultura.png" alt="Logo Ponto de Cultura" height="{{ site.footer-img-h }}">
-          <img src="{{ site.footer-img | relative_url }}/ponto-de-memoria.png" alt="Logo Ponto de Memoria" height="{{ site.footer-img-h }}">
-          <a href="https://mapa.cultura.gov.br/projeto/10410/#info"><img src="{{ site.footer-img | relative_url }}/mdc.png" alt="Logo Mapa da Cultura" height="{{ site.footer-img-h }}"></a>
-          <a href="https://www.gov.br/museus/pt-br"><img src="{{ site.footer-img | relative_url }}/ibram/ibram_color.png" alt="Logo 
-Instituto Brasileiro de Museus" height="{{ site.footer-img-h }}"></a>
-          <a href="https://www.gov.br/cultura/pt-br"><img src="{{ site.footer-img | relative_url }}/minc/minc_color.png" alt="Logo Ministério da Cultura do Brasil" height="{{ site.footer-img-h }}"></a>
+      <div class="col-xl-12 col-lg-12">
+        <div class="footer-custom-content" style="display: flex; gap: 15px; justify-content: center; align-items: center; flex-wrap: wrap; margin-bottom: 50px;">
+          <img src="{{ site.img | relative_url }}/footer/ponto-de-cultura.png" alt="Logo Ponto de Cultura" height="95px">
+          <img src="{{ site.img | relative_url }}/footer/ponto-de-memoria.png" alt="Logo Ponto de Memoria" height="95px">
+          <a href="https://mapa.cultura.gov.br/projeto/10410/#info"><img src="{{ site.img | relative_url }}/footer/mdc.png" alt="Logo Mapa da Cultura" height="95px"></a>
+          <a href="https://www.gov.br/museus/pt-br"><img src="{{ site.img | relative_url }}/footer/ibram/ibram_color.png" alt="Logo 
+Instituto Brasileiro de Museus" height="95px"></a>
+          <a href="https://www.gov.br/cultura/pt-br"><img src="{{ site.img | relative_url }}/footer/minc/minc_color.png" alt="Logo Ministério da Cultura do Brasil" height="95px"></a>
         </div>
       </div>
     </div>
@@ -32,29 +32,16 @@ Instituto Brasileiro de Museus" height="{{ site.footer-img-h }}"></a>
           {% endfor %}
         </div>
       {% endif %}
-      <p class="copyright text-muted">
-      &copy;
-      {{ site.time | date: '%Y' }} {{ site.title }}
-
-      {% if site.url-pretty %}
-        &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '/' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-        </span>
-      {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
-
-      {% if site.edit_page_button and site.github.repository_url %}
-        &nbsp;&bull;&nbsp;
-        <a title="Edit this page on GitHub" href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="text_muted">Edit page</a>
-       {% endif%}
       </div>
+    </div>
+    <div class="row" style="display: flex; justify-content: space-between; align-items: center;">
+      <p class="copyright text-muted">
+        &copy;
+        {{ site.time | date: '%Y' }} {{ site.title }}
+      </p>
+      <p class="text-muted">
+        <small>desarrollado por Patuá; animación de Andorinha.</small>
+      </p>
     </div>
   </div>
 </footer>
