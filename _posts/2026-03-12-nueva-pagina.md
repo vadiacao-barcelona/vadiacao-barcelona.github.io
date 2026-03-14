@@ -4,7 +4,7 @@ lang: es
 title: Nuestra pagina esta online
 subtitle: Benvenidos!
 tags: [noticias]
-author: Mestre Gil
+author: Mestre Gil Maciel
 ---
 
 La página oficial de {{ site.title }} está en línea.
