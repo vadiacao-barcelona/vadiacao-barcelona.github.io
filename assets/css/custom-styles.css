@@ -1,0 +1,119 @@
+/* Override Bootstrap's fixed-top class for navbar */
+.navbar-custom.fixed-top {
+  position: relative !important;
+  top: auto !important;
+  width: 100% !important;
+}
+
+/* Ensure main content doesn't have top padding */
+main {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Remove extra space from header section */
+.header-section {
+  margin: 20px;
+  padding: 0;
+}
+
+.intro-header {
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+}
+
+/* Remove default post list margins */
+.posts-list {
+  margin-top: 0;
+}
+
+.hero-banner {
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 20px solid #7EC2D8;
+  padding: 12px 0;
+  margin: 0;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #101010;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.hero-content h2 {
+  font-size: 1rem;
+  margin: 12px 0 0 0;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.5;
+}
+
+/* Navbar adjustments */
+.navbar-custom {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .hero-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-content h2 {
+    font-size: 0.95rem;
+  }
+
+  .hero-banner {
+    padding: 28px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 24px 0;
+  }
+
+  .hero-content {
+    padding: 0 16px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-banner {
+    padding: 20px 0;
+  }
+
+  .hero-content h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero-content h2 {
+    font-size: 0.85rem;
+  }
+}
