@@ -120,7 +120,7 @@ page-col: "#FFFFFF"
 text-col: "#101010" #404040
 link-col: "#008AFF"
 hover-col: "#0B2034" #0085A1 
-navbar-col: "#7EC2D8" #EAEAEA
+navbar-col: "#FFFFFF" #"#7EC2D8" #EAEAEA
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 footer-col: "#7EC2D8"
@@ -141,8 +141,8 @@ media: "/assets/media/"
 #mobile-theme-col: "#0085A1"
 
 # # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-# site-css:
-#   - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 # 
 # # If you have common JavaScript files that should be included in every page, list them here
 # site-js:
