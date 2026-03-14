@@ -18,3 +18,8 @@ Distinguimos lo ideal o deseable de lo posible, pero sobre todo aprendemos a com
 Por este motivo, fomentamos la creación de otras formas, medios o entidades para difundir, convocar y organizar acciones que mantengan vivas las discusiones capaces de otorgar a la cultura el carácter de centralidad estratégica en la sociedad contemporánea.
 
 Contribuimos a la creación de un sistema internacional de intercambios económicos y culturales teniendo como base la democracia en la igualdad de oportunidades, la corrección de los desequilibrios, el respeto a las diferencias y el diálogo pleno entre las culturas, considerando la consolidación y la promoción de una cultura de paz.
+
+<video width="500px" controls>
+  <source src="{{ site.media | relative_url }}/vadiacao.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
